@@ -1,3 +1,11 @@
 h2 {
-  font-size: 36px;
+  font-size: 33px;
+}
+.phonetics {
+  color: blueviolet;
+  font-size: 22px;
+  margin-top: -10px;
+}
+.section-results {
+  background-color: #f0edff;
 }

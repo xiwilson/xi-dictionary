@@ -1,26 +1,27 @@
 .App {
-  background-image: linear-gradient(
-    to right top,
-    #d8d5f2,
-    #edd3eb,
-    #fbd3de,
-    #ffd6d0,
-    #fcdcc6,
-    #f3e0c4,
-    #e8e4c6,
-    #dde8cc,
-    #d5e8d3,
-    #cfe7d9,
-    #cde6de,
-    #cde4e2
-  );
+  margin: 20px 80px 0px 80px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.374);
 }
 .App-header {
   display: block;
   max-width: 200px;
 }
 footer {
-  margin: 30px 0;
+  display: block;
+  align-items: center;
+  padding: 10px;
+  margin-top: 40px;
   text-align: center;
   font-size: 10px;
+  color: blueviolet;
+  background-color: rgba(255, 255, 255, 0.226);
+  border: 1px solid rgba(255, 255, 255, 0.579);
+  border-radius: 15px;
+}
+footer a {
+  color: rgb(137, 43, 226);
+  text-decoration: none;
+  font-weight: bold;
 }

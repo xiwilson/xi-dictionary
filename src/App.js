@@ -8,7 +8,13 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer>Coded by Linzi Wilson</footer>
+      <footer>
+        This app was coded by{" "}
+        <a href="https://github.com/xiwilson">Linzi Wilson</a> and is
+        open-sourced on{" "}
+        <a href="https://github.com/xiwilson/xi-dictionary">Github</a> and
+        hosted on <a href="https://xi-dictionary.netlify.app/">Netlify</a>
+      </footer>
     </div>
   );
 }

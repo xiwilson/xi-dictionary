@@ -1,8 +1,26 @@
 .App {
-  margin: 20px 80px 0px 80px;
-  padding: 20px;
+  margin: 0px 200px 0px 200px;
+  padding: 20px 50px 50px 50px;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.374);
+  border: 2px solid white;
+  background-image: linear-gradient(
+    to right top,
+    #d8d5f2,
+    #edd3eb,
+    #fbd3de,
+    #ffd6d0,
+    #fcdcc6,
+    #f3e0c4,
+    #e8e4c6,
+    #dde8cc,
+    #d5e8d3,
+    #cfe7d9,
+    #cde6de,
+    #cde4e2
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 5px 5px rgba(151, 151, 151, 0.1);
 }
 .App-header {
   display: block;
@@ -14,11 +32,8 @@ footer {
   padding: 10px;
   margin-top: 40px;
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   color: blueviolet;
-  background-color: rgba(255, 255, 255, 0.226);
-  border: 1px solid rgba(255, 255, 255, 0.579);
-  border-radius: 15px;
 }
 footer a {
   color: rgb(137, 43, 226);

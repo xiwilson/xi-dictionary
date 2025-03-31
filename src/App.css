@@ -1,23 +1,24 @@
 .App {
-  margin: 0px 200px 0px 200px;
+  margin: 50px 250px 40px 250px;
   padding: 20px 50px 50px 50px;
   border-radius: 15px;
   border: 2px solid white;
   background-image: linear-gradient(
     to right top,
-    #d8d5f2,
-    #edd3eb,
+    hsl(246, 100%, 93%),
+    #ffd8fc,
     #fbd3de,
     #ffd6d0,
     #fcdcc6,
-    #f3e0c4,
-    #e8e4c6,
-    #dde8cc,
+    #ffe8c5,
+    #faf5d2,
+    #e7f4d4,
     #d5e8d3,
-    #cfe7d9,
-    #cde6de,
-    #cde4e2
+    #d5ffe6,
+    #d6fff2,
+    #c4fffa
   );
+  backdrop-filter: brightness(100%);
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 5px 5px rgba(151, 151, 151, 0.1);
